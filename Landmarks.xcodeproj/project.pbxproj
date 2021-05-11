@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17785C0E264AB46000FB40BD /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17785C0D264AB46000FB40BD /* CategoryHome.swift */; };
 		17903189263EC49A005B5ACB /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17903188263EC49A005B5ACB /* LandmarksApp.swift */; };
 		1790318B263EC49A005B5ACB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1790318A263EC49A005B5ACB /* ContentView.swift */; };
 		1790318D263EC49B005B5ACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1790318C263EC49B005B5ACB /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17785C0D264AB46000FB40BD /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		17903185263EC49A005B5ACB /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17903188263EC49A005B5ACB /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		1790318A263EC49A005B5ACB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +77,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17785C0C264AB44300FB40BD /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				17785C0D264AB46000FB40BD /* CategoryHome.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		1790317C263EC49A005B5ACB = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +135,7 @@
 		179031A8263FBDC6005B5ACB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				17785C0C264AB44300FB40BD /* Categories */,
 				179031D826417D46005B5ACB /* Hikes */,
 				179031D126417B1F005B5ACB /* Badge */,
 				179031BC263FD674005B5ACB /* Helpers */,
@@ -269,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1790318B263EC49A005B5ACB /* ContentView.swift in Sources */,
+				17785C0E264AB46000FB40BD /* CategoryHome.swift in Sources */,
 				179031DE26417D46005B5ACB /* HikeGraph.swift in Sources */,
 				179031CF264179C3005B5ACB /* Badge.swift in Sources */,
 				1790319C263F8BE5005B5ACB /* MapView.swift in Sources */,
